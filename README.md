@@ -4,13 +4,13 @@ This project implements a financial analysis agent powered using a locally hoste
 - Inside Cursor IDE via MCP, or
 - Directly in your terminal using a standalone Python MCP. inside Cursor IDE.
 
-✨ Features:
+ Features:
 - Multi‑agent orchestration
 - Local LLM inference with Ollama and Deepseek‑R1
 - MCP integration conversational analysis
 - Data fetching and visualization using yfinance, pandas, and matplotlib
 
-🛠️ Technologies Used:
+ Technologies Used:
 - Ollama – serves the Deepseek-R1 model locally
 - yfinance – stock market data
 - pandas – data processing
@@ -46,7 +46,7 @@ ollama pull deepseek-r1
 
 ---
 
-## 🖥️ Running the project
+##  Running the project
 
 You have two options for running the MCP server.
 
@@ -94,7 +94,7 @@ You will see a prompt asking for:
 Charts will be displayed in a window, and summaries printed in the terminal.
 
 ---
-**📝Example queries**:
+**Example queries**:
 - "Show me Tesla's stock performance over the last 3 months"
 - "Compare Apple and Microsoft stocks for the past year"
 - "Analyze the trading volume of Amazon stock for the last month"
@@ -102,7 +102,7 @@ Charts will be displayed in a window, and summaries printed in the terminal.
 The agent will fetch data, run analysis, and render tables or charts inline.
 
 ---
-## 🧩 Project Structure Overview
+##  Project Structure Overview
 ```bash
 project_root/
 ├── server.py         # Main entry point for the agent
@@ -111,7 +111,7 @@ project_root/
 ```
 ---
 
-**💡 Tips**
+** Tips**
 - Troubleshooting Ollama:
   Make sure the Ollama daemon is running (ollama serve) before you start the server.
 
@@ -119,6 +119,6 @@ project_root/
   You can easily edit server.py to adjust the prompt format or add more data processing.
   
   ---
-## 🤝 Contribution
+##  Contribution
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
